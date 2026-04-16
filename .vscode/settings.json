@@ -1,0 +1,25 @@
+{
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.runInTerminal": true,
+    "files.autoSave": "afterDelay",
+    // コード整形関連の設定
+    "editor.formatOnType": false, // タイプ時に自動整形しない
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false, // コピペ時に自動整形しない
+    "editor.formatOnSaveMode": "modifications", // 変更した部分のみ整形（全体を勝手に整形しない）
+    // C/C++ のフォーマット設定
+    "C_Cpp.formatting": "clangFormat",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    // clang-format の設定（改行ルールの徹底修正）
+    "clang-format.style": "{ BasedOnStyle: Google, BreakBeforeBraces: Never, IndentWidth: 4, ColumnLimit: 0, AlwaysBreakTemplateDeclarations: No, SpacesInParentheses: false, SpaceBeforeParens: Never, SpaceAfterCStyleCast: false, AllowShortBlocksOnASingleLine: Always, AllowShortStatementsOnASingleLine: Always, AllowShortLoopsOnASingleLine: Always, KeepEmptyLinesAtTheStartOfBlocks: true, BinPackArguments: false, BinPackParameters: false }",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "tabnine.experimentalAutoImports": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.fontSize":14,
+    "files.associations": {
+        "vector": "cpp"
+    }
+}

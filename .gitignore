@@ -1,0 +1,14 @@
+# 実行ファイル
+*.out
+a.out
+*.exe
+
+# プリコンパイル済みヘッダー
+*.gch
+*.pch
+
+# macOS特有のファイル
+.DS_Storebits/stdc++
+*.gch
+*.out
+.DS_Store
